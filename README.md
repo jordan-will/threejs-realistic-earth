@@ -6,6 +6,8 @@
 
 This project renders a visually realistic 3D Earth using [Three.js](https://threejs.org/), incorporating high-quality textures for surface details, cloud layers, lighting effects, and rotation animation. Ideal for educational platforms, simulations, or interactive web experiences.
 
+You can access live demo [here](https://jordan-will.github.io/threejs-realistic-earth/)
+
 ## ✨ Features
 - High-resolution **diffuse**, **normal**, and **specular** maps
 - Transparent, animated **cloud layer**
@@ -41,7 +43,7 @@ Place all texture files inside your `public/` or `textures/` folder:
 ## 🛠️ Setup & Installation
 Clone this repo:
    ```bash
-   git clone https://github.com/your-username/threejs-realistic-earth
+   git clone https://github.com/jordan-will/threejs-realistic-earth
    cd threejs-realistic-earth
    open with liver server or index.html
    ```
