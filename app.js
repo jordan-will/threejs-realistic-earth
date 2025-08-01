@@ -1,6 +1,6 @@
 const scene = new THREE.Scene()
 const loader = new THREE.TextureLoader()
-loader.load('./assets/textures/universe.jpg', (texture) => {
+loader.load('assets/textures/universe.jpg', (texture) => {
   scene.background = texture
 })
 
@@ -31,10 +31,10 @@ const controls = new THREE.OrbitControls(camera, renderer.domElement)
 
 
 const earthGeo = new THREE.SphereGeometry(1, 64, 64)
-const normalMap = loader.load('./assets/textures/earth_normal_map.png')
-const specularMap = loader.load('./assets/textures/earth_specular_map.png')
-const earthTexture = loader.load('./assets/textures/earth.jpg')
-const cloudTexture = loader.load('./assets/textures/earth_clouds.jpg')
+const normalMap = loader.load('assets/textures/earth_normal_map.png')
+const specularMap = loader.load('assets/textures/earth_specular_map.png')
+const earthTexture = loader.load('assets/textures/earth.jpg')
+const cloudTexture = loader.load('assets/textures/earth_clouds.jpg')
 
 const earthMaterial = new THREE.MeshPhongMaterial({
   map: earthTexture,
